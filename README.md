@@ -23,6 +23,13 @@ The project demonstrates hands-on experience with:
 - Heuristic Evaluation Function  
 - Depth-limited game tree search
 
+
+## Heuristic Evaluation
+- **Disk difference:** The difference between the number of disks owned by each player. This provides a basic measure of advantage.
+- **Blocked disks:** Disks that cannot be flipped in future moves are considered more stable and therefore more valuable.
+- **Move quality estimation:** The heuristic also considers the average number of opponent disks that can be flipped in possible future moves, favoring positions with stronger potential actions.
+
+
 ## Project Description
 
 The project simulates a full Reversi game between two players, where moves can be selected either naively or by an AI agent.  
