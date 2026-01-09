@@ -62,6 +62,12 @@ Install dependencies:
 ```bash
 pip install numpy
 ```
+
+##  Example Run 
+Example of running a game with a minimax tree to depth 3 and calculating the heuristics
+
+![Algorithm Example Output](images/example.png)
+
 ## Skills Demonstrated
 
 - Artificial Intelligence fundamentals
