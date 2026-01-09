@@ -1,7 +1,4 @@
 """
-Name: David Graber
-Email: D3217453@gmail.com
-Date: 14/12/2025
 
 This module defines the Game class, which manages the state and flow
 of a Reversi (Othello) game.
@@ -225,4 +222,5 @@ class Game:
                           f"Total: {red + white}")
                     print("\n====================================================================\n")
                     temp  = copy(self)
+
 
