@@ -1,7 +1,4 @@
 """
-Name: David Graber
-Email: D3217453@gmail.com
-Date: 14/12/2025
 
 This module implements the Minimax algorithm with Alpha-Beta pruning
 for the Reversi (Othello) game.
@@ -111,4 +108,5 @@ def min_value(geme : Game, depth, a, b):
                 tempstate = copy(geme)
 
     return value , move
+
 
