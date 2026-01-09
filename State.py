@@ -1,7 +1,4 @@
 """
-Name: David Graber
-Email: D3217453@gmail.com
-Date: 14/12/2025
 
 This module implements core game logic for a two-player board game
 similar to Reversi (Othello).
@@ -232,5 +229,6 @@ def blocked(state,dire1, dire2, k, t):
 
     if state[i][j] == EMPTY:
         return False
+
 
     return True
