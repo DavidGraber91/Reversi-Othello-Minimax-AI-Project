@@ -1,7 +1,4 @@
 """
-Name: David Graber
-Email: D3217453@gmail.com
-Date: 14/12/2025
 
 This module provides utility functions for running and visualizing
 Reversi (Othello) games using different strategies.
@@ -62,5 +59,6 @@ def H(num):
 
     while(not g.state_terminal()):
         g.step(minimax(g, num))
+
 
     State.display(g.state)
